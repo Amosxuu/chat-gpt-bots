@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # 啟動應用程式
-CMD [ "node", "index.js" ]
+CMD [ "npm", "run", "start" ]
